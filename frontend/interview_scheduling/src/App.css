@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+h1, h2, h3 {
+  color: #333;
+}
+/* Notification Styles */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  transition: opacity 0.3s ease;
+}
+/* HomePage Styles */
+.home-page {
+  padding: 20px;
+}
+.available-slots {
+  margin-top: 20px;
+}
+/* ScheduleInterview Styles */
+.schedule-interview {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.schedule-interview form {
+  display: flex;
+  flex-direction: column;
+}
+.schedule-interview input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* RescheduleInterview Styles */
+.reschedule-interview {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.reschedule-interview ul {
+  list-style: none;
+  padding: 0;
+}
+.reschedule-interview li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Buttons */
+button {
+  background-color: #007bff;
+
+color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
